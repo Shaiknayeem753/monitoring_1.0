@@ -328,7 +328,7 @@ alertmanager:
       slack_configs:
         - send_resolved: true
           channel: #monitoing-cluster
-          api_url: https://hooks.slack.com/services/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
+          api_url: https://hooks.slack.com/services/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
     templates:
     - '/etc/alertmanager/config/*.tmpl'
 

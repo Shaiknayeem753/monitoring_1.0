@@ -328,7 +328,7 @@ alertmanager:
       slack_configs:
         - send_resolved: true
           channel: #monitoing-cluster
-          api_url: 
+          api_url: ${{ secrets.SLACK_SECRET_URL }}
     templates:
     - '/etc/alertmanager/config/*.tmpl'
 
